@@ -84,7 +84,7 @@
 
         "sunnysideup/permission_provider":                             "dev-master",
 
-        "sunnysideup/ecommerce":                                       "dev-master",
+        "sunnysideup/ecommerce":                                       "*",
 
         "sunnysideup/dataobjectsorter":                                "dev-master",
 
@@ -100,7 +100,7 @@
 
         "sunnysideup/faqs":                                            "dev-master",
 
-        "sunnysideup/table_filter_sort":                               "dev-master",
+        "sunnysideup/table_filter_sort":                               "*",
 
         "sunnysideup/ecommerce_security":                              "dev-master",
 
