@@ -1,0 +1,229 @@
+{
+    "name": "sunnysideup/demo-site",
+
+    "description": "Project created on ssmods.com - we have added Framework / CMS / Theme for convenience.  This may not be required.",
+
+    "require": {
+        "silverstripe/recipe-cms":                                     "^4.7",
+
+        "sunnysideup/advertisements":                                  "dev-master",
+
+        "sunnysideup/campaignmonitor":                                 "dev-master",
+
+        "sunnysideup/cms_edit_link_field":                             "dev-master",
+
+        "sunnysideup/datefield_simplified":                            "dev-master",
+
+        "sunnysideup/ecommerce_dashboard":                             "dev-master",
+
+        "sunnysideup/ecommerce_delivery":                              "dev-master",
+
+        "sunnysideup/ecommerce_discount_coupon":                       "dev-master",
+
+        "sunnysideup/ecommerce_giftvoucher":                           "dev-master",
+
+        "sunnysideup/ecommerce_newsletter_campaign_monitor":           "dev-master",
+
+        "sunnysideup/ecommerce_tax":                                   "dev-master",
+
+        "sunnysideup/ecommerce_trademe":                               "dev-master",
+
+        "sunnysideup/email_reminder":                                  "dev-master",
+
+        "sunnysideup/frontendeditor":                                  "dev-master",
+
+        "sunnysideup/hidemailto":                                      "dev-master",
+
+        "sunnysideup/imagegallery_basic":                              "dev-master",
+
+        "sunnysideup/metatags":                                        "dev-master",
+
+        "sunnysideup/modulechecks":                                    "dev-master",
+
+        "sunnysideup/mysite_ssu_flava":                                "dev-master",
+
+        "sunnysideup/payment_directcredit":                            "dev-master",
+
+        "sunnysideup/payment_instore":                                 "dev-master",
+
+        "sunnysideup/pdf_upload_field":                                "dev-master",
+
+        "sunnysideup/perfect_cms_images":                              "dev-master",
+
+        "sunnysideup/prettyphoto":                                     "dev-master",
+
+        "sunnysideup/sharethis":                                       "dev-master",
+
+        "sunnysideup/sortable_list_view":                              "dev-master",
+
+        "sunnysideup/templateoverview":                                "dev-master",
+
+        "sunnysideup/termsandconditions":                              "dev-master",
+
+        "sunnysideup/title_dataobject":                                "dev-master",
+
+        "sunnysideup/typography":                                      "dev-master",
+
+        "sunnysideup/vimeoembed":                                      "dev-master",
+
+        "sunnysideup/webpack_requirements_backend":                    "dev-master",
+
+        "sunnysideup/webportfolio":                                    "dev-master",
+
+        "sunnysideup/phone_field":                                     "dev-master",
+
+        "sunnysideup/email_address_database_field":                    "dev-master",
+
+        "sunnysideup/googlemapbasic":                                  "dev-master",
+
+        "sunnysideup/sswebpack_engine_only":                           "dev-master",
+
+        "sunnysideup/dataintegritytests":                              "dev-master",
+
+        "sunnysideup/contact_list":                                    "dev-master",
+
+        "sunnysideup/permission_provider":                             "dev-master",
+
+        "sunnysideup/ecommerce":                                       "dev-master",
+
+        "sunnysideup/dataobjectsorter":                                "dev-master",
+
+        "sunnysideup/ecommerce_product_variation":                     "dev-master",
+
+        "sunnysideup/google_address_field":                            "dev-master",
+
+        "sunnysideup/googleanalyticsbasics":                           "dev-master",
+
+        "sunnysideup/config_manager":                                  "dev-master",
+
+        "sunnysideup/share_this_simple":                               "dev-master",
+
+        "sunnysideup/faqs":                                            "dev-master",
+
+        "sunnysideup/table_filter_sort":                               "dev-master",
+
+        "sunnysideup/ecommerce_security":                              "dev-master",
+
+        "sunnysideup/ecommerce_second_hand_product":                   "dev-master",
+
+        "sunnysideup/dataobject-generator":                            "dev-master",
+
+        "sunnysideup/payment_dps":                                     "dev-master",
+
+        "sunnysideup/ecommerce_maxmind_minfraud":                      "dev-master",
+
+        "sunnysideup/object-cacher":                                   "dev-master",
+
+        "sunnysideup/google-calendar-interface":                       "dev-master",
+
+        "sunnysideup/cleaner_tinymce_config":                          "dev-master",
+
+        "sunnysideup/mysql-5-7-fix":                                   "dev-master",
+
+        "sunnysideup/assets_overview":                                 "dev-master",
+
+        "sunnysideup/silverstripe-dynamiccache":                       "dev-master",
+
+        "sunnysideup/search_simple_smart":                             "dev-master",
+
+        "sunnysideup/dms":                                             "dev-master",
+
+        "sunnysideup/migration-task":                                  "dev-master",
+
+        "sunnysideup/salesforcepartner":                               "dev-master",
+
+        "sunnysideup/cms-niceties":                                    "dev-master",
+
+        "sunnysideup/my-class-tree":                                   "dev-master",
+
+        "sunnysideup/faster-id-lists":                                 "dev-master",
+
+        "sunnysideup/dataobjectpreview":                               "dev-master",
+
+        "sunnysideup/slices":                                          "dev-master",
+
+        "sunnysideup/flush":                                           "dev-master",
+
+        "sunnysideup/cleanup-tables":                                  "dev-master",
+
+        "sunnysideup/reports-pages-with-videos":                       "dev-master",
+
+        "sunnysideup/fixvideosforss4":                                 "dev-master",
+
+        "sunnysideup/delete-all-tables":                               "dev-master",
+
+        "sunnysideup/afterpay":                                        "dev-master",
+
+        "sunnysideup/ecommerce_orderstep_feedback":                    "dev-master",
+
+        "sunnysideup/silverstripe-svg-images":                         "dev-master",
+
+        "sunnysideup/silverstripe-simple-template-caching":            "dev-master",
+
+        "sunnysideup/glossary":                                        "dev-master",
+
+        "sunnysideup/keep-words-together":                             "dev-master",
+
+        "sunnysideup/ecommerce-google-shopping-feed":                  "dev-master",
+
+        "sunnysideup/ecommerce_quick_coupons":                         "dev-master",
+
+        "sunnysideup/sanitise-class-name":                             "dev-master",
+
+        "sunnysideup/ecommerce-google-analytics":                      "dev-master",
+
+        "sunnysideup/simple-template-caching":                         "dev-master",
+
+        "sunnysideup/dashboardmods":                                   "dev-master",
+
+        "sunnysideup/move-large-files-to-assets":                      "dev-master",
+
+        "sunnysideup/site-wide-search":                                "dev-master",
+
+        "sunnysideup/ecommerce_custom_product_lists":                  "dev-master",
+
+        "sunnysideup/payment_hirepurchase":                            "dev-master",
+
+        "sunnysideup/staticpublishqueue":                              "dev-master",
+
+        "sunnysideup/error-log-made-easy":                             "dev-master",
+
+        "sunnysideup/test-email":                                      "dev-master",
+
+        "sunnysideup/health-check-provider":                           "dev-master",
+
+        "sunnysideup/geoip":                                           "dev-master",
+
+        "sunnysideup/sunnysideup-theme-backend":                       "dev-master",
+
+        "sunnysideup/database-share-clean-up":                         "dev-master",
+
+        "sunnysideup/schedulizer":                                     "dev-master",
+
+        "sunnysideup/perfect-cms-images-uploader":                     "dev-master",
+
+        "sunnysideup/elemental-edit-me-button":                        "dev-master",
+
+        "sunnysideup/grid-field-send-to-bottom-action":                "dev-master",
+
+        "sunnysideup/under-construction-or-offline":                   "dev-master",
+
+        "sunnysideup/cloud-flare-geoip":                               "dev-master",
+
+        "sunnysideup/vardump":                                         "dev-master"
+
+    },
+
+    "scripts": {
+        "post-install-cmd" : [
+            "php framework/cli-script.php dev/build flush=1"
+        ],
+        "post-update-cmd" : [
+            "php framework/cli-script.php dev/build flush=1"
+        ]
+    },
+
+    "minimum-stability": "dev",
+
+    "prefer-stable": true
+}
