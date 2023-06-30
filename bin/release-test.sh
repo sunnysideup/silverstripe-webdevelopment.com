@@ -39,7 +39,7 @@ GIT_HASH=$(git rev-parse HEAD)
 source .env
 
 # Append Git hash to the fixed URL
-URL_WITH_HASH="${FIA_RELEASE_PING_URL}${GIT_HASH}"
+# URL_WITH_HASH="${FIA_RELEASE_PING_URL}${GIT_HASH}"
 
 # Use wget to open the URL
 wget -S -qO- "${URL_WITH_HASH}"

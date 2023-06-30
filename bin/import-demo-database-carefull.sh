@@ -37,7 +37,7 @@ if [ ! -d "./ssbak-tmp-dir" ]; then
 fi
 
 # get sspak
-wget https://admin.found-it-already.com/demo-demo.sspak
+wget https://admin.silverstripe-webdevelopment/demo-demo.sspak
 
 # load sspak
 ./ssbak-tmp-dir/ssbak load demo-demo.sspak ./
