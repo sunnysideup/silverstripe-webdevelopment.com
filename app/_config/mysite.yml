@@ -1,0 +1,11 @@
+---
+Name: myproject
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: app
+
+# SilverStripe\View\SSViewer:
+#   theme: theme-info-only
+
+SilverStripe\Control\Email\Email:
+  admin_email: demo@sunnysideup.co.nz
