@@ -1,0 +1,56 @@
+---
+Name: appconfig
+After: 'framework/*','cms/*'
+---
+SilverStripe\CMS\Model\SiteTree:
+  nested_urls: 1
+  create_default_pages: 0
+  meta_generator: "www.sunnysideup.co.nz based on www.silverstripe.org and LAMP"
+
+SSViewer:
+  theme: 'main'
+
+MySQLDatabase:
+  connection_charset: 'utf8'
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - SiteConfigExtras
+  cms_logo: 'themes/main/images/cms_logo.png'
+  
+GDBackend:
+  default_quality: 85
+
+Email:
+  admin_email: 'swd@sunnysideup.co.nz'
+
+Email:
+ bcc_all_emails_to: ssuerrors@gmail.com
+
+i18n:
+  default_locale: 'en_NZ';
+  date_format: "dd-MM-YYYY"
+  locale: 'en_NZ'
+
+SilverStripe\Admin\LeftAndMain:
+  application_name: "Sunny Side Up Website"
+  extra_requirements_css:
+    - "app/css/cmsfixes.css"
+
+
+
+#LeftAndMain:
+#  help_link: "admin/help/"
+
+---
+Only:
+  environment: 'dev'
+---
+
+Email:
+  send_all_emails_to: "ssuerrors@gmail.com"
+
+BasicAuth:
+  entire_site_protected: 1
+  entire_site_protected_code: "Admin"
+  entire_site_protected_message: "This site is offline right now, please enter your username + password to gain access if you are the site owner"
