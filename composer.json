@@ -11,9 +11,8 @@
   ],
   "require": {
     "php": ">=8.1",
-    "silverstripe/recipe-cms": "^5@stable",
-    "sunnysideup/advertisements": "7.0.0"
-
+    "silverstripe/recipe-cms": "^5",
+    "sunnysideup/advertisements": "*"
   },
   "four-ready": {
     "sunnysideup/array-to-csv-download": "dev-master",
