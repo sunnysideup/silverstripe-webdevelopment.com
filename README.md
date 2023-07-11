@@ -25,6 +25,26 @@ sake-git-commit-and-push-vendor-packages vendor/sunnysideup/ -v major -m  "MAJOR
 ###########################
 # replacers ctrl shift h 
 ###########################
+"silverstripe/recipe-core": "~4.4"
+"silverstripe/recipe-cms": "^4.0@stable"
+"silverstripe/recipe-cms": "^4.0"
+"silverstripe/framework": "~4@stable"
+"silverstripe/cms": "~4@stable"
+"silverstripe/framework": "~4"
+"silverstripe/recipe-cms": "*"
+"silverstripe/cms": "4.*"
+"silverstripe/framework": "4.*"
+"silverstripe/recipe-cms": "~4.0@stable"
+"silverstripe/framework": "^4"
+"silverstripe/cms": "~4.0"
+"silverstripe/framework": "^4.1"
+"silverstripe/recipe-core": "~4@stable"
+"silverstripe/framework": "^4.0.2"
+"silverstripe/recipe-cms": "^4.6@stable"
+"silverstripe/recipe-core": "~4.4"
+"silverstripe/framework": "^4@stable"
+
+
 
 "silverstripe/recipe-cms": "^4.2" 
 "silverstripe/framework": "^4.0"
