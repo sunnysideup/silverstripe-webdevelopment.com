@@ -4957,16 +4957,16 @@
         },
         {
             "name": "silverstripe/assets",
-            "version": "1.13.2",
+            "version": "1.13.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-assets.git",
-                "reference": "7db8cde28cec1ef2a7906b66a9e7de496589a3e6"
+                "reference": "7c8440dd2ed5c5c76549bef3555bec5c5f6ab6f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-assets/zipball/7db8cde28cec1ef2a7906b66a9e7de496589a3e6",
-                "reference": "7db8cde28cec1ef2a7906b66a9e7de496589a3e6",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-assets/zipball/7c8440dd2ed5c5c76549bef3555bec5c5f6ab6f3",
+                "reference": "7c8440dd2ed5c5c76549bef3555bec5c5f6ab6f3",
                 "shasum": ""
             },
             "require": {
@@ -5018,9 +5018,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-assets/issues",
-                "source": "https://github.com/silverstripe/silverstripe-assets/tree/1.13.2"
+                "source": "https://github.com/silverstripe/silverstripe-assets/tree/1.13.3"
             },
-            "time": "2023-06-14T22:06:29+00:00"
+            "time": "2023-07-11T02:47:47+00:00"
         },
         {
             "name": "silverstripe/campaign-admin",
@@ -13108,16 +13108,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sunnysideup/silverstripe-webp-image.git",
-                "reference": "16076f65964db0e7740380e5089056f6f62155f2"
+                "reference": "53ab0bc29d03c9edd8d162001835031c9cb37882"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-webp-image/zipball/16076f65964db0e7740380e5089056f6f62155f2",
-                "reference": "16076f65964db0e7740380e5089056f6f62155f2",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-webp-image/zipball/53ab0bc29d03c9edd8d162001835031c9cb37882",
+                "reference": "53ab0bc29d03c9edd8d162001835031c9cb37882",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/framework": "^4.1"
+                "silverstripe/framework": "^4.0 || ^5.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7"
@@ -13149,7 +13149,7 @@
                 "issues": "https://github.com/nomidi/silverstripe-webp-image/issues",
                 "source": "https://github.com/sunnysideup/silverstripe-webp-image/tree/master"
             },
-            "time": "2021-10-03T02:55:00+00:00"
+            "time": "2023-07-11T03:15:39+00:00"
         },
         {
             "name": "sunnysideup/simple-template-caching",
