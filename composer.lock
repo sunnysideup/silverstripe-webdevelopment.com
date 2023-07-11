@@ -11453,12 +11453,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sunnysideup/silverstripe-mysite_ssu_flava.git",
-                "reference": "39ec5260f83a8a7fd3fe37a0b2fb533147566a90"
+                "reference": "918ca93f128918f0f0ba8b631b93350a17d5a56e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-mysite_ssu_flava/zipball/39ec5260f83a8a7fd3fe37a0b2fb533147566a90",
-                "reference": "39ec5260f83a8a7fd3fe37a0b2fb533147566a90",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-mysite_ssu_flava/zipball/918ca93f128918f0f0ba8b631b93350a17d5a56e",
+                "reference": "918ca93f128918f0f0ba8b631b93350a17d5a56e",
                 "shasum": ""
             },
             "require": {
@@ -11509,7 +11509,7 @@
                 "issues": "https://github.com/sunnysideup/silverstripe-mysite_ssu_flava/issues",
                 "source": "https://github.com/sunnysideup/silverstripe-mysite_ssu_flava/tree/master"
             },
-            "time": "2019-01-27T19:21:35+00:00"
+            "time": "2023-07-11T03:23:55+00:00"
         },
         {
             "name": "sunnysideup/mysql-5-7-fix",
