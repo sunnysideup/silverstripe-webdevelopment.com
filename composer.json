@@ -10,8 +10,8 @@
     }
   ],
   "require": {
-    "php": ">=7.4",
-    "silverstripe/recipe-cms": "^4",
+    "php": ">=8.1",
+    "silverstripe/recipe-cms": "^5",
     "sunnysideup/advertisements": "*",
     "sunnysideup/array-to-csv-download": "dev-master",
     "sunnysideup/assets_overview": "dev-master",
