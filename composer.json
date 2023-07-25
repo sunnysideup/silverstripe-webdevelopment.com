@@ -11,7 +11,10 @@
   ],
   "require": {
     "php": ">=8.1",
-    "silverstripe/recipe-cms": "^5",
+    "silverstripe/recipe-cms": "^5.0",
+    "silverstripe/graphql": "^5.0",
+    "silverstripe/errorpage": "^2.0",
+    "silverstripe/vendor-plugin": "^1.0 || ^2.0",
     "sunnysideup/advertisements": "*",
     "sunnysideup/array-to-csv-download": "dev-master",
     "sunnysideup/assets_overview": "dev-master",
@@ -39,9 +42,7 @@
     "sunnysideup/default-predict": "dev-main",
     "sunnysideup/delete-all-tables": "dev-master",
     "sunnysideup/delete-members": "dev-master",
-    "sunnysideup/dms": "dev-master",
     "sunnysideup/duplicate-urlsegments": "dev-master",
-    "sunnysideup/ecommerce": "dev-master",
     "sunnysideup/ecommerce-advance-retail-connector": "dev-master",
     "sunnysideup/ecommerce-google-analytics": "dev-master",
     "sunnysideup/ecommerce-google-shopping-feed": "dev-master",
@@ -100,7 +101,6 @@
     "sunnysideup/moodle": "dev-master",
     "sunnysideup/move-large-files-to-assets": "dev-master",
     "sunnysideup/my-class-tree": "dev-master",
-    "sunnysideup/mysite_ssu_flava": "dev-master",
     "sunnysideup/mysql-5-7-fix": "dev-master",
     "sunnysideup/orm-extras": "dev-master",
     "sunnysideup/password-field": "dev-main",
@@ -133,7 +133,6 @@
     "sunnysideup/silverstripe-webp-image": "dev-master",
     "sunnysideup/simple-template-caching": "dev-master",
     "sunnysideup/site-wide-search": "dev-master",
-    "sunnysideup/slices": "dev-master",
     "sunnysideup/sortable_list_view": "dev-master",
     "sunnysideup/sswebpack_engine_only": "dev-master",
     "sunnysideup/staticpublishqueue": "dev-master",
@@ -166,9 +165,13 @@
     "sunnysideup/afterpay": "conflicts with guzzlehttp",
     "sunnysideup/boilerplate-webpack": "requires elemental-edit-me-button but conflicts wih root composer.json",
     "sunnysideup/selected-colour-picker": "issue with page class",
-    "sunnysideup/silverstripe-event-calendar": "issue with page class"
+    "sunnysideup/silverstripe-event-calendar": "issue with page class",
+    "sunnysideup/mysite_ssu_flava": "theme that needs 4.3"
   },
   "suggest": {
+    "sunnysideup/dms": "DMS",
+    "sunnysideup/ecommerce": "dev-master",
+    "sunnysideup/slices": "dev-master"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -205,6 +208,12 @@
       "web.config"
     ]
   },
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/sunnysideup/silverstripe-image-coord"
+    }
+],
   "config": {
     "allow-plugins": {
       "composer/installers": true,
