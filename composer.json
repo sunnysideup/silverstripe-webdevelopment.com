@@ -136,7 +136,6 @@
     "sunnysideup/sortable_list_view": "dev-master",
     "sunnysideup/sswebpack_engine_only": "dev-master",
     "sunnysideup/staticpublishqueue": "dev-master",
-    "sunnysideup/sunnysideup-theme-backend": "dev-master",
     "sunnysideup/table_filter_sort": "dev-master",
     "sunnysideup/templateoverview": "dev-master",
     "sunnysideup/test-email": "dev-master",
@@ -156,6 +155,7 @@
   "require-dev": {
   },
   "removed": {
+    "sunnysideup/sunnysideup-theme-backend": "dev-master",
     "sunnysideup/ecommerce_test": "dev-master",
     "sunnysideup/termsandconditions": "seems SS 3.6",
     "sunnysideup/email_reminder": "not PHP 8.1 ready due to pelagro ",
