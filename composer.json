@@ -164,7 +164,8 @@
  "sunnysideup/search_all_tables_and_fields":  "*@dev",
  "sunnysideup/resize-all-images": "*@dev",
  "sunnysideup/youtubefield":"*@dev",
- "sunnysideup/theme-info-only":"*"
+ "sunnysideup/theme-info-only":"*",
+ "sunnysideup/silverstripe-event-calendar":"dev-master"
   },
   "require-dev": {
   },
@@ -177,18 +178,16 @@
  "sunnysideup/silverstripe-event-calendar": "issue with page class"
   },
   "out": {
+    "sunnysideup/dms": "DMS",
+    "sunnysideup/slices": "dev-master",
+    "sunnysideup/ecommerce-demo-theme": "*",
  "sunnysideup/termsandconditions": "seems SS 3.6",
  "sunnysideup/object-cacher": "seems SS 3.6",
  "sunnysideup/salesforcepartner": "seems SS 3.6"
   },
   "suggest": {
- "sunnysideup/dms": "DMS",
- "sunnysideup/slices": "dev-master",
- "sunnysideup/ecommerce-demo-theme": "*",
+    "sunnysideup/timeline": "dev-main",
   
-
-  "sunnysideup/silverstripe-event-calendar":"*",
-  "sunnysideup/timeline": "requires lower version of graphql",
   "sunnysideup/ecommerce": "dev-master"
   },
   "minimum-stability": "dev",
